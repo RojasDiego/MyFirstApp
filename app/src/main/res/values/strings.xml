@@ -2,4 +2,8 @@
     <string name="app_name">MyFirstApp</string>
     <string name="esto_es_un_juego">Esto es un juego!</string>
     <string name="jugar">Jugar</string>
+    <string name="game_name">Game name</string>
+    <string name="descriotion">Descriotion</string>
+    <string name="todo">TODO</string>
+    <string name="gameLink" translatable="false">http://stucom.flx.cat/game/api/game</string>
 </resources>

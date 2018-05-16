@@ -1,17 +1,17 @@
 package com.dfr.myfirstapp;
+
+import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.provider.MediaStore;
-import android.support.v4.content.SharedPreferencesCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.view.View;
-import android.graphics.Bitmap;
-import android.app.Activity;
 
 public class SettingsPage extends AppCompatActivity {
     private static final int CAMERA_REQUEST = 1888;

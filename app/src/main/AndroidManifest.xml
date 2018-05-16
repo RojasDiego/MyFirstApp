@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dfr.myfirstapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,8 +20,13 @@
         </activity>
         <activity android:name=".GamePage" />
         <activity android:name=".SettingsPage" />
+        <activity android:name=".RanquingPage" />
         <activity android:name=".AboutUsPage" />
-        <activity android:name=".RanquingPage"></activity>
+        <activity android:name=".SelectGame"></activity>
+        <activity android:name=".GameMainActivity"
+            android:screenOrientation="landscape"
+            android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
     </application>
 
 </manifest>
